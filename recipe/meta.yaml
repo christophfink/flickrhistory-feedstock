@@ -1,5 +1,5 @@
 {% set name = "flickrhistory" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.0.post1" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/flickrhistory-{{ version }}.tar.gz
-  sha256: 0106baf52ea3aa244494c85e24e3888f1594c0d020de7232f6c31115a952b0a6
+  sha256: 68a4869e3338e73febd3cfa9aad04ea146f41998f3ab0ee9c19449073ce4967f
 
 build:
   noarch: python
